@@ -3,12 +3,12 @@
 
 
 ## Target directory where the backup file will be created:
-BACKUPDIR="/media/my_passport/archives"
+BACKUPDIR="/media/my_passport/archives/homebackups"
 
 ## From file containing the names of directories to back up:
-DIRLIST=`cat ~/backup-distro/backup_dirs.txt`
+DIRLIST=`cat backup_dirs.txt`
 ## From file containing the names of files to back up:
-FILELIST=`cat ~/backup-distro/backup_files.txt`
+FILELIST=`cat backup_files.txt`
 
 ## Create filename for backup file:
 NAME="home-backup"

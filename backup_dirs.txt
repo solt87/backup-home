@@ -7,6 +7,7 @@ Képek/
 Letöltések/
 localprogs/
 prog/
+screenshots/
 steam_screenshots/
 Videók/
 VirtualBox_VMs/
