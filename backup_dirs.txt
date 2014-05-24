@@ -13,6 +13,7 @@ Videók/
 VirtualBox_VMs/
 Zenék/
 .cmus/
+.frozenbyte/
 .local/share/applications/
 .local/share/icons/
 .local/share/littleinferno/
