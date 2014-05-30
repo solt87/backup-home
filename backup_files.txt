@@ -1,6 +1,8 @@
 .bash_aliases
 .bashrc
+.config/lxtask.conf
 .gitconfig
+.nvidia-settings-rc
 .pinerc
 .racketrc
 .steampid

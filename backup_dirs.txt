@@ -13,6 +13,10 @@ Videók/
 VirtualBox_VMs/
 Zenék/
 .cmus/
+.config/lxpanel/
+.config/geany/
+.config/supertuxkart/
+.config/transmission/
 .frozenbyte/
 .local/share/applications/
 .local/share/icons/
@@ -21,3 +25,4 @@ Zenék/
 .macromedia/
 .mozilla/
 .Osmos/
+.tuxcmd/
