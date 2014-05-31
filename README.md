@@ -5,7 +5,7 @@ This is a simple script I created to easily backup my needed files and directori
 ## Setting things up
 
 To use backup-home, you will have to:
-- modify backup_dirs.txt and backup_files.txt to point to the directories and files you want to back up.
+- modify backup_dirs.txt and backup_files.txt to contain the directories and files you want to back up.
   You can also create new files for this purpose. (You can use one file, I used two for clarity.)
 - modify DIRLIST and FILELIST to point to the files you are using.
 - modify BACKUPDIR to point to the directory of your choosing.
