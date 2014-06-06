@@ -19,9 +19,7 @@ FILENAME=`echo $NAME$SEP$DATE`
 
 ## Create the actual archive with verbose output saved to a log file:
 tar -C $HOME -cvhzf $BACKUPDIR/$FILENAME.tgz $DIRLIST $FILELIST 2>&1 | \
-   tee $BACKUPDIR/$FILENAME.log
-
-## Create another file containing only tar warnings/errors from log:
-cat $BACKUPDIR/$FILENAME.log | grep tar: > $BACKUPDIR/$FILENAME-tar.log
+   tee $BACKUPDIR/$FILENAME.log | \
+   grep tar: | tee $BACKUPDIR/$FILENAME-tar.log
 
 exit 0

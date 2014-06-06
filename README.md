@@ -1,6 +1,6 @@
 # Backup-home
 
-This is a simple script I created to easily backup my needed files and directories from my home directory.
+These are two simple scripts I created to easily backup my needed files and directories from my home directory.
 
 ## Setting things up
 
