@@ -7,6 +7,7 @@ Képek/
 Letöltések/
 localprogs/
 prog/
+revocert/
 screenshots/
 steam_screenshots/
 Videók/
@@ -20,6 +21,8 @@ Zenék/
 .config/transmission/
 .frictionalgames/
 .frozenbyte/
+.gnupg/
+.icedove/
 .local/share/applications/
 .local/share/icons/
 .local/share/littleinferno/
