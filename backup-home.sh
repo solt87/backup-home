@@ -14,7 +14,7 @@ FILELIST=`cat ~/backup-distro/backup-home/backup_files.txt`
 NAME="home-backup"
 SEP="--"
 DATE=`date +%Y-%m-%d--%H%M`
-## Full filename (without filename extension):
+## Full filename (without file extension):
 FILENAME=`echo $NAME$SEP$DATE`
 
 ## Create the actual archive with verbose output saved to a log file:

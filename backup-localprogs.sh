@@ -8,7 +8,7 @@ BACKUPDIR="/media/my_passport/archives/homebackups"
 NAME="localprogs-backup"
 SEP="--"
 DATE=`date +%Y-%m-%d--%H%M`
-## Full filename (without filename extension):
+## Full filename (without file extension):
 FILENAME=`echo $NAME$SEP$DATE`
 
 ## Create the actual archive with two logfiles:
