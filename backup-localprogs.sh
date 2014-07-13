@@ -12,7 +12,7 @@ DATE=`date +%Y-%m-%d--%H%M`
 FILENAME=`echo $NAME$SEP$DATE`
 
 ## Create the actual archive with two logfiles:
-tar -C $HOME -cvzf $BACKUPDIR/$FILENAME.tgz $HOME/localprogs/ 2>&1 | \
+tar -C $HOME -cvzf $BACKUPDIR/$FILENAME.tgz localprogs/ 2>&1 | \
     tee $BACKUPDIR/$FILENAME.log | \
     grep tar: | tee $BACKUPDIR/$FILENAME-tar.log
 
