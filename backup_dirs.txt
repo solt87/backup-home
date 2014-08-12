@@ -2,7 +2,6 @@ backup-distro/
 bin/
 Desktop/
 Dokumentumok/
-Downloads/
 Képek/
 Letöltések/
 prog/
@@ -15,7 +14,9 @@ Zenék/
 .cmus/
 .config/audacious/
 .config/geany/
+.config/gummi/
 .config/lxpanel/
+.config/openbox/
 .config/supertuxkart/
 .config/transmission/
 .frictionalgames/
