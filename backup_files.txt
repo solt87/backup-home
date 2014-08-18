@@ -8,3 +8,4 @@
 .pinerc
 .racketrc
 .steampid
+.vimrc
