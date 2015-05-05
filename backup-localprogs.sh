@@ -2,14 +2,14 @@
 ## Backup ~/localprogs/
 
 ## Target directory where the backup file will be created:
-BACKUPDIR="/media/my_passport/archives/homebackups"
+BACKUPDIR="/media/solt87/my_passport/archives/homebackups"
 
 ## Create filename for backup file:
 NAME="localprogs-backup"
 SEP="--"
-DATE=`date +%Y-%m-%d--%H%M`
+DATE=$( date +%Y-%m-%d--%H%M )
 ## Full filename (without file extension):
-FILENAME=`echo $NAME$SEP$DATE`
+FILENAME=$NAME$SEP$DATE
 
 ## Create the actual archive with two logfiles:
 tar -C $HOME -cvzf $BACKUPDIR/$FILENAME.tgz localprogs/ 2>&1 | \

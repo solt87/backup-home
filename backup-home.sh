@@ -3,19 +3,19 @@
 
 
 ## Target directory where the backup file will be created:
-BACKUPDIR="/media/my_passport/archives/homebackups"
+BACKUPDIR="/media/solt87/my_passport/archives/homebackups"
 
 ## From file containing the names of directories to back up:
-DIRLIST=`cat ~/backup-distro/backup-home/backup_dirs.txt`
+DIRLIST=$( cat ~/backup-distro/backup-home/backup_dirs.txt )
 ## From file containing the names of files to back up:
-FILELIST=`cat ~/backup-distro/backup-home/backup_files.txt`
+FILELIST=$( cat ~/backup-distro/backup-home/backup_files.txt )
 
 ## Create filename for backup file:
 NAME="home-backup"
 SEP="--"
-DATE=`date +%Y-%m-%d--%H%M`
+DATE=$( date +%Y-%m-%d--%H%M )
 ## Full filename (without file extension):
-FILENAME=`echo $NAME$SEP$DATE`
+FILENAME=$NAME$SEP$DATE
 
 ## Create the actual archive with verbose output saved to a log file:
 tar -C $HOME -cvhzf $BACKUPDIR/$FILENAME.tgz $DIRLIST $FILELIST 2>&1 | \
