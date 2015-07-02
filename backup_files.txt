@@ -1,11 +1,9 @@
 .bash_aliases
 .bashrc
-.config/lxtask.conf
 .config/geany/filetype_extensions.conf
 .config/geany/filedefs/filetypes.Go.conf
 .gitconfig
-.nvidia-settings-rc
 .pinerc
 .racketrc
-.steampid
+.toprc
 .vimrc
