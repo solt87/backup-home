@@ -4,8 +4,6 @@ bin/
 .cmus/
 .config/audacious/
 .config/geany/
-.config/lxpanel/
-.config/openbox/
 .config/supertuxkart/
 .config/transmission/
 Dokumentumok/
@@ -23,9 +21,7 @@ Letöltések/
 .local/share/supertuxkart/
 .Osmos/
 prog/
-revocert/
 screenshots/
 steam_screenshots/
-.tuxcmd/
 Videók/
 Zenék/
